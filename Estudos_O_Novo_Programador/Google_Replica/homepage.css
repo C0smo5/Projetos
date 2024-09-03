@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+.logo{
+    margin-top: 150px;
+}
+.campo_pesquisa{
+    margin-top: 26px;
+    border: 0.5px solid #dfe1e5;
+    height: 48px;
+    width: 584px;
+    border-radius: 25px;
+}
+.campo_pesquisa:hover{
+    box-shadow: 1px 1px 12px #dfe1e5;
+}
+button{
+    font-size: 14px;
+    height: 36px;
+    width: 142px;
+    padding: 0 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 29px 3px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+}

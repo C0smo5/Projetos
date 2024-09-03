@@ -1,0 +1,13 @@
+body{
+    color:blue; /*Para fontes/textos usar o "color: ;"*/
+    /*--------------Formas de Mudar a Cor de Fundo--------------
+    
+    1º = background-color: blue ; Essa forma é só escrever Cores em ingles(OBS: é bem limitado)
+
+    2º = background-color: #0000FF ; Essa forma é usando o código hexadecimal(OBS: Achar uma cor com esse codigo é mais facil)
+    
+    3º = background-color: rgba(0,0,255) ; Essa forma é a melhor(my opinion), voce consegue usar praticamente qualquer cor(OBS: O unico problema é colocar uma cor muito especifica)
+
+    */
+    background-color: #d3d3d3;
+}

@@ -1,0 +1,14 @@
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: darkgray;
+}
+
+.item{
+    padding: 20px;
+    background-color: aqua;
+    color: black;
+    margin: 10px;
+    flex: 0;
+}

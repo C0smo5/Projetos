@@ -1,0 +1,11 @@
+p{
+    font-size: 30px;
+    font-style:italic; /*Deixa o texto em Italico*/
+    font-weight: bold; /*Deixa o texto em negrito e define o "quanto" de negrito*/
+    letter-spacing: 1px; /*Aumenta a distancia entre as letras*/
+    line-height: 40px; /*aumenta a distancia entre linhas*/
+    color: indigo; /*Muda a cor do texto*/
+    text-transform: capitalize; /*Algumas alterações no texto*/
+    text-align:center; /*Alinhamento do texto*/
+    text-decoration:line-through; /*Decora o texto*/
+}

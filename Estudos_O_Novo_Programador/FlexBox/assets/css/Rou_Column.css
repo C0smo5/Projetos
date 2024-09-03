@@ -1,0 +1,11 @@
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    padding: 20px;
+    background-color: aqua;
+    color: black;
+    margin: 10px;
+}

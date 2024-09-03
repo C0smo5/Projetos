@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+@font-face {
+    font-family: "valoon";
+    src: url(../fonts/valoon.ttf) ;
+
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Sevillana', sans-serif;
+}

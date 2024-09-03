@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Formulários</title>
+        <link rel="stylesheet" href="../assets/css/formularios.css"> 
+    </head>
+    
+    <body>
+    <center>   
+        <h1>Formulários</h1><br>
+
+        <form action="/cadastro" enctype="multipart/form-data" method="get">
+            <h></h>
+            <input type="text"
+            value="" 
+            maxlength="10"
+            placeholder="Insira o seu nome" 
+            name="nome">
+
+            <br><br>
+
+            <textarea name="teste" placeholder="Escreva seu Texto"></textarea>
+
+            <br><br>
+
+            <input type="number" min="0" max="110" placeholder="Sua idade" name="idade">
+            
+            <br><br>
+
+            <input type="email" placeholder="Seu Email" required name="email">
+
+            <br><br>
+
+            <input type="password" placeholder="Sua senha" required name="senha">
+
+            <br><br>
+
+            <input type="search" placeholder="Pesquisa" name="pesquisa">
+
+            <br><br>
+
+            <input type="tel" placeholder="Seu telefone" name="telefone">
+
+            <br><br>
+
+            <input type="url" placeholder="Sua URL" name="url">
+
+            <br><br>
+            
+            <input type="date" name="data">
+
+            <br><br>
+
+            <input type="time" name="horario">
+
+            <br><br>
+
+            <input type="datetime-local" name="dataehora">
+
+            <br><br>
+
+            <input type="week" name="semana">
+
+            <br><br>
+
+            <input type="month" name="mes">
+
+            <br><br>
+
+            <input type="file" multiple accept=".pdf" name="arquivo">|<!--Tomar cuidado com arquivos-->
+
+
+            <br><br>
+
+            <input id="banana" type="checkbox" value="true" name="banana">
+            <label for="banana"> Banana</label>
+
+            <br>
+
+            <input id="mamao" type="checkbox" name="mamao">
+            <label for="mamao">Mamão</label>
+
+            <br>
+
+            <input id="laranja" type="checkbox" name="laranja">
+            <label for="laranja">Laranja</label>
+
+            <br><br>
+
+            <input id="vermelho" type="radio" name="cor" value="vermelho">
+            <label for="vermelho">Vermelho</label>
+
+            <br>
+
+            <input type="radio" name="cor" value="amarelo" id="amarelo">
+            <label for="amarelo">Amarelo</label>
+
+            <br>
+
+            <input type="radio" name="cor" value="preto" id="preto">
+            <label for="preto">Preto</label>
+
+            <br><br>
+
+            <input type="color" name="color" value="cor">
+
+            <br><br>
+
+            <select name="parcelas">
+                <option value="0">-- Selecione as Parcelas --</option>
+                <option value="1">R$: 1.000 - 1X sem Juros</option>
+                <option selected value="2">R$: 500 - 2x sem Juros</option>
+                <option value="3">R$ 333,33 - 3x sem juros</option>
+                <option value="4">R$ 250 - 4x sem Juros</option>
+                <option value="5">R$ 235 - 5x com Juros</option>
+            </select>
+
+            <br><br>
+
+            <label>Defina o percentual de completude da sua tarefa</label>
+            <br>
+            <input type="range" name="percentual" min="0" max="100" value="0">
+
+            <br><br>
+
+            <input type="submit" value="enviar">
+
+        </form>
+    </center>
+    </body>
+</html>
